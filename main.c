@@ -29,8 +29,8 @@ int main() {
 
     // Print the results
     printf("Original values: (%d, %d, %d, %d)\n", a1, a2, a3, a4);
-    printf("OR'ed with: (%d, %d, %d, %d)\n", b1, b2, b3, b4);
-    printf("manual OR'ed: (%d, %d, %d, %d)\n", a1 ^ b1, a2 ^ b2, a3 ^ b3, a4 ^ b4);
+    printf("XOR'ed with: (%d, %d, %d, %d)\n", b1, b2, b3, b4);
+    printf("manual XOR'ed: (%d, %d, %d, %d)\n", a1 ^ b1, a2 ^ b2, a3 ^ b3, a4 ^ b4);
     printf("SIMD Result: (%d, %d, %d, %d)\n", out[0], out[1], out[2], out[3]);
 
     return 0;
